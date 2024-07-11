@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+/* TODO:Global Css Start */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+/* TODO:Global Css End */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+p,
+span,
+label,
+input,
+textarea,
+select,
+a {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Inknut Antiqua", serif;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  /* background-color: #17726D; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* img {
+  width: 100%;
+  height: 100%;
+} */
+
+/* TODO: Global Css Start */
+.container {
+  max-width: 82.5em;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.sec_padding {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+/* TODO: Global Css End */

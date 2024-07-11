@@ -1,0 +1,161 @@
+.Architecture_left{
+    width: 45%;
+}
+.Architecture_right{
+    width: 45%;
+    position: relative;
+}
+.Architecture{
+    background: #17726D;
+}
+.Architecture_heading h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #ffff;
+}
+.Architecture_wrapper{
+    gap: 3em;
+}
+.Architecture_heading p{
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 33.6px;
+    color: #ffff;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-top: 1em;
+}
+
+.btn.Architecture_btn{
+    padding: 16px 75px 12px 48px;
+    margin-top: 1em;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+
+
+.Architecture_btn .btn:hover{
+   background: transparent;
+   outline: 2px solid #D3b078;
+}
+
+
+.Architecture_right_img img{
+    width: 300px;
+}
+.Architecture_right_img  {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3em;
+    align-items: flex-end;
+    position: absolute;
+    bottom: -58px;
+}
+.Architecture_right:hover{
+    transform: perspective(600px) rotateX(-0.355556deg) rotateY(1.62667deg) scale(1);
+}
+
+.architecture_img {
+    width: 123px;
+    position: absolute;
+    top: -45px;
+    left: 9px;
+}
+.architecture_img img {
+    width: 143px;
+}
+
+svg.w-full.rotate-180.md\:block.hidden {
+    transform: rotate(180deg)
+}
+.Architecture_heading{
+    position: relative;
+}
+
+.articuter_image-bg {
+    position: absolute;
+    width: 281%;
+    transform: rotate(369deg);
+    left: -131px;
+    top: 0px;
+}
+
+
+@media (max-width:1180px){
+    .Architecture_left{
+        width: 100%;
+    }
+    .Architecture_right{
+        width: 100%;
+    }
+    .Architecture_wrapper{
+        flex-direction: column-reverse;
+    }
+
+    .Architecture_heading h1{
+        font-size: 25px;
+        line-height: 42px;
+        text-align: center;
+    }
+
+    .Architecture_heading p {
+        font-size: 15px;
+        line-height: 28.6px;
+        text-align: center;
+    }
+
+    .architecture_img {
+        width: 152px;
+        top: -232px;
+        left: 8px;
+    }
+    .Architecture_right_img img {
+        width: 370px;
+    }
+    .articture_btn{
+        display: flex;
+        justify-content: center;
+    }
+    .Architecture_right_img {
+         gap: 2em;
+         width: 100%;
+         bottom: -22px
+        
+    }
+
+}
+
+
+@media (max-width:550px){
+    .Architecture_right_img img {
+        width: 152px;
+    }
+    .Architecture_right_img {
+        gap: 2em;
+       
+      
+     }
+     .Architecture_left{
+        width: 100% !important;
+     }
+     .Architecture_right{
+        width: 100% !important;
+    } 
+    .Architecture_right img{
+        width: 100%;
+    }
+     .logo img{
+        width: 103px;
+        height: 22px;
+    }
+    .Architecture_right_img {
+        gap: 2em;
+        width: 48%;
+        margin-left: 190px;
+    }
+
+     }
